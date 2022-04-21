@@ -1,0 +1,26 @@
+{
+    "name": "fabianomsrc/minicrud",
+    "description": "Mini CRUD com PHP e MySQLi",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fabiano M. Silva (San)",
+            "email": "fabiano.msrc@outlook.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MiniCRUD\\": "src/"
+        },
+        "files": [
+            "config/config.php",
+            "helpers/helpers.php"
+        ]
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4",
+        "ext-mysqli": "*"
+    }
+}

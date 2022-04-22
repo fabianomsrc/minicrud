@@ -10,7 +10,7 @@ include __DIR__ . '/../partials/header.php';
 
 <div>
     <div>
-        <h1>Read all Person</h1>
+        <h1>:: Read ::</h1>
         <a href="./create.php">New Person</a>
     </div>
     <div>

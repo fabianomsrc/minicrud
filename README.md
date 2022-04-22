@@ -19,3 +19,6 @@ Crie o banco de dados a partir do esquema que tem na pasta __sql__ ou restaure a
 # Disclaimer
 
 Este projeto foi criado apenas para meus estudos e pode apresentar uma série de erros e más práticas. Fique a vontade para colaborar com dicas e sugestões. A media que eu for avançando em conhecimento vou melhorando o projeto.
+
+# Créditos:
+https://devcontratado.com/blog/php/crud-php-mysql

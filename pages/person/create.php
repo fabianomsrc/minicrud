@@ -37,7 +37,7 @@ if (filter_input_array(INPUT_POST)) {
 
 <div>
     <div>
-        <a href="./../../index.php"><h1>:: Create ::</h1></a>
+        <h1>:: Create ::</h1>
         <a href="./../../index.php">Preview</a>
     </div>
     <div>

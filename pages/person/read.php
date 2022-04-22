@@ -14,7 +14,7 @@ include __DIR__ . '/../partials/header.php';
         <a href="./create.php">New Person</a>
     </div>
     <div>
-        
+
     </div>
     <table>
         <tr>
@@ -22,6 +22,7 @@ include __DIR__ . '/../partials/header.php';
             <th>Email</th>
             <th>Phone</th>
         </tr>
+    <?php if ((new Person(new MySQLManager()))->readAllData()) : ?>
         <?php foreach ((new Person(new MySQLManager()))->readAllData() as $result) : ?>
         <tr>
             <td><?= htmlspecialchars($result['person_name'], ENT_QUOTES) ?></td>
@@ -31,6 +32,7 @@ include __DIR__ . '/../partials/header.php';
             <td><a href="./delete.php?personID=<?=$result['person_id']?>"><i class="fas fa-trash"></i></a></td>
         </tr>
         <?php endforeach ?>
+    <?php endif ?>
     </table>
 </div>
 

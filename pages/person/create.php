@@ -42,7 +42,7 @@ if (filter_input_array(INPUT_POST)) {
     </div>
     <div>
         <div>
-            <form action="./../user/create.php" method="post">
+            <form action="./../person/create.php" method="post">
                 <label for="name">Name</label>
                 <input type="text" name="name" id="name" placeholder="Full Name">
                 <label for="name">Email</label>
